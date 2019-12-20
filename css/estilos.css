@@ -1,0 +1,59 @@
+body {
+    font-family: 'Assistant', sans-serif;
+
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6  {
+    font-family: 'Teko', sans-serif;
+}
+
+.fondo-caption {
+    background-color: rgba(47, 36, 36, 0.6);
+    border-radius: 10px;
+}
+
+#bienvenido {
+    font-weight: 400;
+    color: gray;
+}
+
+@media only screen and (max-device-width:480px) {
+    .centrar {
+        text-align: center;
+    }
+}
+
+.iconos {
+    background-color: lightcyan;
+    border: 1px solid gray;
+    border-radius: 33px;
+    padding: 10px;
+}
+
+.fondo-about {
+    background-image: url(../img/about.png); 
+    background-repeat: no-repeat;
+}
+
+.lista-horarios {
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    height: 33px;
+    padding: 5px;
+    border-bottom: 1px dotted white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-device-width:480px) {
+    .overlayer {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
