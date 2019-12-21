@@ -8,7 +8,7 @@ ul {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6  {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .fondo-caption {
@@ -41,7 +41,7 @@ ul {
 
 .lista-horarios {
     list-style: none;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     font-weight: 600;
     height: 33px;
@@ -56,4 +56,45 @@ ul {
     .overlayer {
         background-color: rgba(255, 255, 255, 0.8);
     }
+}
+
+.flex-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fondo-redes {
+    background-image: url(../img/fondo.jpg); 
+    background-repeat: no-repeat;
+    min-height: 450px;
+    
+}
+
+#capa{
+    position: relative;
+}
+
+.overlayer-redes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  height: 100%;
+}
+
+.lista-redes {
+    list-style: none;
+}
+
+hr .hr-redes {
+    border-top: 1px solid black;
+}
+.btn-primary:hover {
+    background-color: lightsteelblue;
+    color: black;
 }
