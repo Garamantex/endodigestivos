@@ -16,7 +16,7 @@ ul {
     border-radius: 10px;
 }
 
-#bienvenido {
+.bienvenido {
     font-weight: 400;
     color: gray;
 }
@@ -70,6 +70,15 @@ ul {
     background-repeat: no-repeat;
     min-height: 450px;
     
+}
+
+.fondo-blue {
+    color:white; 
+    background-color: #0facee;
+}
+
+.fondo-blue h5, p {
+    color: black;
 }
 
 #capa{
