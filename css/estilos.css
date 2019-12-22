@@ -68,8 +68,7 @@ ul {
 .fondo-redes {
     background-image: url(../img/fondo.jpg); 
     background-repeat: no-repeat;
-    min-height: 450px;
-    
+    min-height: 450px;   
 }
 
 .fondo-blue {
@@ -106,4 +105,38 @@ hr .hr-redes {
 .btn-primary:hover {
     background-color: lightsteelblue;
     color: black;
+}
+
+#capa2{
+    position: relative;
+}
+
+.overlayer-contacto {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 172, 238, 0.65);
+  color: black;
+  height: 100%;
+}
+
+.fondo-contacto {
+    background-image: url(../img/contacto.jpg); 
+    background-repeat: no-repeat;
+    min-height: 450px;   
+}
+.contacto {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contacto-phone {
+    font-size: 75px;
+    line-height: 75px;
+    color: white;
+    font-weight: 700;
 }
